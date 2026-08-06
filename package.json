@@ -1,0 +1,36 @@
+{
+  "homepage": "https://Manoj-Prabakaran.github.io/myportfolio/",
+  "name": "manoj-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^7.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.0",
+    "gh-pages": "^6.3.0",
+    "vite": "^7.2.2"
+  },
+  "description": "A multi-page React portfolio. Each section (Home, Skills, Experience, Projects, Resume, Contact) is its own route/component — navigating shows only that page, not everything scrolled together.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manoj-Prabakaran/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manoj-Prabakaran/portfolio/issues"
+  }
+}
