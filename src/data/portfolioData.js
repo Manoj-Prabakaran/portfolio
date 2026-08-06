@@ -114,7 +114,7 @@ export const DATA = {
   // Resume page. Put your PDF in `public/assets/resume.pdf`
   // and this page will render it directly from the assets folder.
   resume: {
-    url: "/assets/resume.pdf",
+    url: "portfolio/assets/resume.pdf",
     filename: "manojprabakaranchelliah_resume.pdf",
   },
 
